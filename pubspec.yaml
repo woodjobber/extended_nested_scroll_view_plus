@@ -1,5 +1,5 @@
 name: extended_nested_scroll_view_plus
-description: "extended nested scroll view to fix pinned header and inner scrollables sync issues."
+description: "extended nested scroll view to fix pinned header and inner scrollable sync issues."
 version: 0.0.1
 homepage: https://github.com/woodjobber/extended_nested_scroll_view_plus.git
 
