@@ -170,7 +170,7 @@ class ExtendedNestedScrollViewPlus extends StatefulWidget {
     this.restorationId,
     this.scrollBehavior,
     this.pinnedHeaderSliverHeightBuilder,
-    this.onlyOneScrollInBody = false,
+    this.onlyOneScrollInBody = true,
     this.resetPositionToZero = true,
     this.onInnerScroll,
     this.keyboardDismissBehavior = ScrollViewKeyboardDismissBehavior.manual,
@@ -188,8 +188,10 @@ class ExtendedNestedScrollViewPlus extends StatefulWidget {
 
   final bool onlyOneScrollInBody;
 
+  /// Reset position zero,Default is true.
   final bool? resetPositionToZero;
 
+  /// Inner scroll
   final void Function(List<ScrollPosition>)? onInnerScroll;
 
   /// An object that can be used to control the position to which the outer
